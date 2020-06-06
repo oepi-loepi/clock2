@@ -28,7 +28,7 @@ App {
         property string idxWas : "32"
 	property string idxDryer : "33"
 
-	property string domoticzURL1 : "http://192.168.10.185:8080"
+	property string domoticzURL1 : "http://192.168.xx.xx:yyyy"
 
 
 	// user settings from config file
