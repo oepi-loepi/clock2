@@ -45,9 +45,10 @@ Tile {
 		id: wasButton
 		width: isNxt ? 284 : 220;  
 		height: isNxt ? 35 : 30
-		buttonActiveColor: app.actWas? app.actDroog?  "yellow" :  "orange"    :  app.actDroog? "cyan" : ""
+		buttonActiveColor: app.actWas? app.actDroog?  "yellow" :  "orange"    :  app.actDroog? "cyan" : "transparent"
 		textColor : "black"
-		buttonText: app.actWas? app.actDroog? "Wasmachine en droger klaar" :  "Wasmachine is klaar"    :  app.actDroog? "Droger is klaar" : ""
+		//buttonText: app.actWas? app.actDroog? "Wasmachine en droger bezig" :  "Wasmachine is bezig"    :  app.actDroog? "Droger is bezig" : ""
+		buttonText: animationscreen.animationRunning
 		anchors {
 			top: parent.top
 			topMargin: 1
